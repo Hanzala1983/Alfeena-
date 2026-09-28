@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Hind Siliguri', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Playfair Display', 'Hind Siliguri', serif;
+}
+
+.font-brand-title {
+  font-family: 'Cinzel', 'Hind Siliguri', serif;
+}
+
+.font-cinzel-decorative {
+  font-family: 'Cinzel Decorative', 'Cinzel', 'Playfair Display', serif;
+}
+
+/* Custom smooth horizontal scrollbar for category tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Zoom cursor and touch enhancements */
+.zoom-container {
+  overflow: hidden;
+  position: relative;
+}
